@@ -1,5 +1,5 @@
 # Use the official Ruby image as a base
-FROM ruby::3.2.5
+FROM ruby:3.2.5
 
 # Install dependencies
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -  # Add NodeSource repository for Node.js 16
