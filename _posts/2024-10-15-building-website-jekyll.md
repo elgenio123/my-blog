@@ -131,6 +131,7 @@ To apply any of these themes, follow the instructions in their repositories. Usu
         - vendor/ruby
 
     before_script:
+      - gem install bundler
       - bundle install
 
     pages:
