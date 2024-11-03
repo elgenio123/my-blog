@@ -6,10 +6,10 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash
 RUN apt install nodejs
 
 # Set working directory
-WORKDIR /app
+WORKDIR .
 
 # Copy the Gemfile and Gemfile.lock into the container
-COPY Gemfile* ./
+COPY Gemfile* .
 
 # Install bundler and gems
 RUN gem install bundler && bundle install
