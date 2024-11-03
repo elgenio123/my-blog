@@ -21,7 +21,6 @@ vendor/bundle
 # Ignore node modules if you're using npm or Yarn for asset management
 node_modules/
 yarn.lock
-package-lock.json
 
 # Ignore Docker files that shouldn’t be in the container
 Dockerfile

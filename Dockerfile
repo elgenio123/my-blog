@@ -4,7 +4,7 @@ FROM ruby:3.2.5
 # Install dependencies
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash
 RUN apt install nodejs
-RUN npm cache clean --force && npm install
+RUN npm ci
 
 # Set working directory
 WORKDIR /app
