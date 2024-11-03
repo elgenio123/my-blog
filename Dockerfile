@@ -2,9 +2,9 @@
 FROM ruby:3.2.5
 
 # Install dependencies
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -  # Add NodeSource repository for Node.js 16
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash
 RUN apt install nodejs
-RUN npm install
+RUN npm cache clean --force && npm install
 
 # Set working directory
 WORKDIR /app
