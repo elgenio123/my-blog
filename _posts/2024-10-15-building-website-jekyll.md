@@ -147,7 +147,7 @@ To apply any of these themes, follow the instructions in their repositories. Usu
         - main
     ```
 
-    Make sure you add script to build javascript resources if your chosen template uses bootstrap
+    - Make sure you add script to build javascript resources if your chosen template uses bootstrap
 
     - This configuration file tells GitLab CI/CD to use a Ruby image, install the required dependencies, build the Jekyll site, and serve the `public` directory as your GitLab Pages site.
 
